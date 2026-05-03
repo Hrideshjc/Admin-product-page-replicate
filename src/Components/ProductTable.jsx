@@ -18,7 +18,7 @@ const ProductTable = ({ products }) => {
 
   return (
     <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
-      {/* Table Section */}
+      
       <div className="overflow-x-auto">
         <table className="w-full text-left border-collapse min-w-[1100px]">
           <thead className="bg-gray-50 border-b border-gray-200">

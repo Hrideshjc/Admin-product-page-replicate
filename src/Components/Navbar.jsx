@@ -55,7 +55,7 @@ const Navbar = ({ toggleSidebar }) => {
         
         <div className="w-9 h-9 rounded-full overflow-hidden border border-gray-200 cursor-pointer hover:border-[#FA6C48] transition-all">
           <img 
-            src="https://i.ibb.co/5GzXy0V/user-avatar.jpg" 
+            src="https://static.vecteezy.com/system/resources/thumbnails/027/951/137/small/stylish-spectacles-guy-3d-avatar-character-illustrations-png.png" 
             alt="admin" 
             className="w-full h-full object-cover"
           />

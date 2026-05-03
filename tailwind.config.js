@@ -2,12 +2,12 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}", // This line is crucial!
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        brand: '#FA6C48', // This adds your specific hex color
+        brand: '#FA6C48',
       }
     },
   },
