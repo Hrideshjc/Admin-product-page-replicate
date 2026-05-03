@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiPlus, FiUpload, FiDownload, FiTrash2, FiSearch, FiPlusCircle, FiColumns } from 'react-icons/fi';
-import ProductTable from './ProductTable';
+import ProductTable from '../Components/ProductTable';
 
 const ProductsContent = () => {
   
