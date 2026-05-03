@@ -13,7 +13,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         ? 'text-gray-900 bg-[#F4F5F7] font-semibold' 
         : 'text-[#4B5563] hover:text-[#10B981] hover:bg-gray-50'}`}>
       <div className="flex items-center">
-        {/* Outlined icons with consistent stroke */}
+        
         <Icon size={20} strokeWidth={1.5} className={active ? 'text-gray-900' : 'text-gray-500 group-hover:text-[#10B981]'} />
         {isOpen && <span className="ml-4 text-[15px]">{label}</span>}
       </div>
@@ -36,7 +36,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       <aside className={`fixed lg:static inset-y-0 left-0 bg-white border-r border-gray-100 z-50 transition-all duration-300 flex flex-col
         ${isOpen ? 'w-[280px] translate-x-0' : 'w-20 lg:translate-x-0 -translate-x-full'}`}>
         
-        {/* LOGO SECTION - Notice the subtle background and green bag icon */}
+        
         <div className="p-4 mx-4 my-4 bg-[#F4F5F7] rounded-xl flex items-center gap-3">
           <div className="text-[#10B981]">
             <ShoppingCart size={28} strokeWidth={2.5} />
@@ -44,7 +44,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           {isOpen && <h1 className="text-3xl font-bold text-[#374151] tracking-tight">Dashtar</h1>}
         </div>
 
-        {/* NAVIGATION */}
+       
         <div className="flex-1 overflow-y-auto custom-scrollbar">
           <CategoryLabel>General</CategoryLabel>
           <NavItem icon={LayoutGrid} label="Dashboard" />
@@ -72,7 +72,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           <NavItem icon={Globe} label="Localization" hasSubmenu={true} />
         </div>
 
-        {/* ADMIN PROFILE - Matches the rounded white card style at the bottom */}
+        
         <div className="p-4 bg-[#F9FAFB] border-t border-gray-100">
           <div className="flex items-center justify-between p-2 rounded-xl bg-white border border-gray-100 shadow-sm cursor-pointer hover:bg-gray-50 transition-colors">
             <div className="flex items-center gap-3">
