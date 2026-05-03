@@ -65,18 +65,18 @@ const ProductTable = ({ products }) => {
         </table>
       </div>
 
-      {/* Footer / Pagination Section (image_0c3e98.png) */}
+      
       <div className="px-6 py-4 bg-white border-t border-gray-100 flex flex-col md:flex-row md:items-center justify-between gap-4">
         
-        {/* Selection Status */}
+       
         <div className="text-[13px] text-gray-500 font-medium">
           0 of 338 row(s) selected.
         </div>
 
-        {/* Pagination Controls */}
+        
         <div className="flex flex-wrap items-center gap-6">
           
-          {/* Rows per page */}
+          
           <div className="flex items-center gap-2">
             <span className="text-[13px] font-bold text-gray-700">Rows per page</span>
             <select className="bg-white border border-gray-200 rounded-lg text-[13px] px-2 py-1 focus:outline-none">
@@ -86,12 +86,12 @@ const ProductTable = ({ products }) => {
             </select>
           </div>
 
-          {/* Page indicator */}
+          
           <div className="text-[13px] font-bold text-gray-700">
             Page 1 of 17
           </div>
 
-          {/* Navigation Arrows */}
+          
           <div className="flex items-center gap-1">
             <button className="p-1.5 rounded-md border border-gray-200 text-gray-200 cursor-not-allowed">
               <ChevronsLeft size={16} />
